@@ -42,7 +42,7 @@ const UserDetailPage = ({ userData }) => {
 
   return (
     <div className="container">
-             <h1><Link to={"/"}>
+             <h1><Link to={"/user-directory/"}>
             Home
             </Link></h1>
       <div className="timer-container">

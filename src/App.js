@@ -39,8 +39,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<MainPage userData={userData}/>} />
-        <Route path="/user/:id" element={<UserDetailPage userData={userData}/>} />
+        <Route path="/user-directory/" element={<MainPage userData={userData}/>} />
+        <Route path="user-directory/user/:id" element={<UserDetailPage userData={userData}/>} />
       </Routes>
     </Router>
   );

@@ -6,13 +6,13 @@ const MainPage = ({userData}) => {
   }
   return (
     <div className="container">
-      <h1><Link to={"/"}>
+      <h1><Link to={"/user-directory/"}>
             Home
             </Link></h1>
       {userData.map((user) => (
         <div key={user.id} className="user-container">
           <p className="user-name">
-          <Link to={`/user/${user.id}`} className="user-name">
+          <Link to={`/user-directory/user/${user.id}`} className="user-name">
             {user.name}
             </Link>
             </p>
